@@ -11,6 +11,10 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+
+from subprocess import Popen
+Popen(["python", "instabot.py/example.py"])
+
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 
 application = get_wsgi_application()

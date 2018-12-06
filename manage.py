@@ -2,6 +2,8 @@
 import os
 import sys
 
+from subprocess import Popen
+Popen(["python", "instabot.py/example.py"])
 
 
 if __name__ == "__main__":

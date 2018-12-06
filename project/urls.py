@@ -5,8 +5,7 @@ from django.contrib import admin
 from welcome.views import index, health
 
 
-from subprocess import Popen
-Popen(["python", "instabot.py/example.py"])
+
 
 urlpatterns = [
     # Examples:

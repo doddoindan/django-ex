@@ -7,9 +7,10 @@ For more information on this file, see
 https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
 """
 
+import os
 
-from subprocess import Popen
-Popen(["python", "instabot.py/example.py"])
+from django.core.wsgi import get_wsgi_application
+
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 

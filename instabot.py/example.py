@@ -15,7 +15,7 @@ bot = InstaBot(
     like_per_day=2000,
     comments_per_day=0,
     tag_list=['follow4follow', 'f4f', 'cute' ,'cat','catlover','cats','cutecat','bombaycat','catlive', 'catstagram', 
-             'dog', 'dogs','pets', 'animals', 'movies', 'moviesscenes'],
+             'blackcat', 'starwars','pets', 'animals', 'movies', 'moviesscenes','tvseries','television','photoshopped'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,

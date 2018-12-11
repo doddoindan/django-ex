@@ -13,9 +13,9 @@ bot = InstaBot(
     login="catoshopped",
     password="katyalolik",
     like_per_day=2000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute' ,'cat','catlover','cats','cutecat','bombaycat','catlive', 'catstagram', 
-             'blackcat', 'starwars','pets', 'animals', 'movies', 'moviesscenes','tvseries','television','photoshopped'],
+    comments_per_day=50,
+    tag_list=['cat','котики','cats','коты','котэ','cutecat','bombaycat','bombaycats','catstagram', 'blackcat'
+             'catsinspace','catonsynthesizer','catonsynthesizerinspace','catinabox','catsfollowers','котеечка','котейка'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,

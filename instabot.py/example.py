@@ -31,15 +31,15 @@ bot = InstaBot(
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
-    comment_list=[["this", "the", "your"],
-                  ["photo", "picture", "pic", "shot", "snapshot"],
-                  ["is", "looks", "feels", "is really"],
-                  ["great", "super", "good", "very good", "good", "wow",
-                   "WOW", "cool", "GREAT","magnificent", "magical",
+    comment_list=[["this", "your"],
+                  ["cat"],
+                  ["is", "looks", "is really"],
+                  ["great", "super", "good",  "good", "cool", 
+                   "GREAT","cute", "magical",
                    "very cool", "stylish", "beautiful", "so beautiful",
-                   "so stylish", "so professional", "lovely",
+                   "so stylish",  "lovely",
                    "so lovely", "very lovely", "glorious","so glorious",
-                   "very glorious", "adorable", "excellent", "amazing"],
+                   "very glorious", "adorable", "amazing"],
                   [".", "..", "...", "!", "!!", "!!!"]],
     unwanted_username_list=[
         'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',

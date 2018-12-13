@@ -11,9 +11,9 @@ from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
     login="catoshopped",
-    password="katyalolik",
+    password="Cyexb<exb1984",
     like_per_day=2000,
-    comments_per_day=50,
+    comments_per_day=30,
     tag_list=['cat','котики','cats','коты','котэ','cutecat','bombaycat','bombaycats','catstagram', 'blackcat'
              'catsinspace','catonsynthesizer','catonsynthesizerinspace','catinabox','catsfollowers','котеечка','котейка'],
     tag_blacklist=['rain', 'thunderstorm'],
